@@ -1,0 +1,64 @@
+.head {
+    display: flex;
+    
+    flex-direction: row;
+    margin: auto;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.navcontent{
+    color: black;
+}
+ul{
+    display: flex;
+    position: relative;
+    gap: 55px;
+    margin-top: 49px;
+    left: 525px;
+
+}
+.contact{
+    display: flex;
+    position: relative;
+    
+    width: fit-content;
+    height: fit-content;
+    padding: 25px;
+    left: 625px;
+}
+button:hover{
+    background-color: #3caeff;
+    transition: 0.2s ease-in-out;
+}
+.mid{
+    display: flex;
+    position: relative;
+    top: 95px;
+
+}
+.midHead{
+    display: flex;
+    
+    height: 450px;
+
+}
+.imgmid{
+    display: block;
+    margin: 10px 10px 10px 10px;
+    width: 1500px ;
+    height: 450px;
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+;
+}
+.write{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    font-weight: 500;
+    color: white;
+ 
+}

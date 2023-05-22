@@ -1,0 +1,40 @@
+.mid2{
+    display: flex;
+    position: relative;
+    top: 105px;
+    margin-top: 55px;
+}
+li{
+    list-style: none;
+    
+}
+.headInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    cursor: text;
+}
+.paraInfo{
+    display: flex;
+    position: relative;
+    left: 250px;
+    width: 250px;
+    left: 592px;
+    width: 488px;
+    margin-top: 55px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    transition: 0.2s ease-in;
+    position: relative;
+    left: 640px;
+    margin-top: 55px;
+}

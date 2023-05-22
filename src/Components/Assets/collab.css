@@ -1,0 +1,82 @@
+.card{
+    display: flex;
+    position: relative;
+    width: fit-content;
+    height:fit-content;
+    left: 610px;
+    margin-top: 205px;
+    margin-bottom: 12px;
+}
+.card_body{
+    cursor: pointer;
+}
+.Footer{
+    background-color: black;
+    height: fit-content;
+}
+.footerimg{
+    display: flex;
+    margin-left: 20px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color: white;
+    
+}
+.parafoot{
+    color: white;
+    width: 325px;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    color: white;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.outerFooter{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -212px;
+}
+.LocationList{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ServicesList{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.XivTechList{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.copyright{
+    position: relative;
+    color: white;
+    left: 350px;
+}
+.cTEXT{
+    position: relative;
+    color: white;
+    left: 250px;
+
+}
+.FootContainer{
+    padding: 50px;
+}
